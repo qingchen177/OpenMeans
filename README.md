@@ -1,0 +1,2 @@
+# OpenMeans
+OpenMeans是一个开源项目，旨在通过整合开源工具、库和框架的多样化生态系统来增强openManus的创造力。
