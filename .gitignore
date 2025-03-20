@@ -172,3 +172,7 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+utils/
+!utils/opensource in here.txt
+.idea/
+.vscode/
