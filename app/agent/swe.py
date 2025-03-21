@@ -24,7 +24,7 @@ class SWEAgent(ToolCallAgent):
     max_steps: int = 30
 
     bash: Bash = Field(default_factory=Bash)
-    working_dir: str = ""
+    working_dir: str = "."
 
     async def think(self) -> bool:
         """Process current state and decide next action"""
