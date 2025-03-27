@@ -1,12 +1,13 @@
 # OpenMeans
 OpenMeans 是一个开源项目，致力于通过整合多样化的开源工具、库和框架，提升 openManus 的创造力和功能。
 
-> 此分支为OpenManus的first_hackathon的克隆分支
+> 此分支在first_hackathon分支基础上添加了[Marp-CLI](https://github.com/marp-team/marp-cli)，可以进行HTML、PDF、PPT的生成。
 
 ## 安装
 > 前置环境：
 > - Git
 > - Conda(推荐)
+> - Node.js(必须)
 >
 
 ### 步骤
@@ -26,7 +27,11 @@ pip install -r requirements.txt
 #### 工具安装
 
 ```bash
-# 工具安装（可选）
+# 工具安装
+
+# ++++ Marp-CLI - 必须 ++++
+conda install -c conda-forge nodejs
+npm install --save-dev @marp-team/marp-cli
 
 # ++++ 浏览器自动化工具 - 推荐 ++++
 playwright install

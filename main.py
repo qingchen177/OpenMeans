@@ -1,11 +1,11 @@
 import asyncio
 
-from app.agent.manus import Manus
+from app.agent.means_marp import MeansMarp
 from app.logger import logger
 
 
 async def main():
-    agent = Manus()
+    agent = MeansMarp()
     try:
         prompt = input("Enter your prompt: ")
         if not prompt.strip():
